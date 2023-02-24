@@ -1,0 +1,95 @@
+<!DOCTYLE html>
+<html>
+    <head>
+        <meta name="viewport"content=width=device-width,initial-scale=11">
+        <style>
+            body
+                {font-family:calibri,helvetica,sans-serif,background-color:pink;}
+    .container{
+        padding:50px;background-color: pink;
+    }
+
+    input[type=text],input[type=password],textarea{width: 100%;
+        padding: 15px;
+        margin: 5px 0 22px 0;
+        display: inline-block;
+        border: none;
+        background: #f1f1f1;}
+input[type=text]:focus,input[type=password]:focus{background-color: orange; outline: none;}
+div {
+    padding: 10px 0;
+}
+hr {
+    border: 1px solid #f1f1f1
+    margin-bottom: 25px;
+}
+.registerbtn {
+    background-color: #4caf50;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+</style>
+    </head>
+    <body>
+        <form>
+ <div class="container">
+    <center> <h1>Student Registeration form</h1></center>
+    <hr>
+    <label>firstname</label>
+    <input type="text"name="firstname" placeholder="firstname"size="15"required/>
+    <label>Middlename</label>
+  <input type="text"name="Middlename" placeholder="Middlename"size="15"required/>
+<label>Lastname</label>
+<input type="text"name="Lastname" placeholder="Lastname"size="15"required/>
+ <div>           
+
+    <label>
+       <h1> Course:</h1>
+    </label>
+
+    <select
+    <option value="course">course</option>
+    <option value="comp">comp</option>
+    <option value="physics">physics</option>
+    <option value="chemistry">chemistry</option>
+    <option value="biology">biology</option>   
+    <option value="geograph">geograph</option>
+    <option value="mathematics">mathematics</option>
+</select>
+ </div>
+ <div>
+    <label>
+        Gender:
+    </label><br>
+    <input type="radio" value="male"name="Gender"checked> Male
+    <input type="radio" value="Female"name="Gender"checked>female
+
+ </div>
+ <label>
+    Phone :
+ </label>
+ <input type="text"name="country code" placeholder="country code" value="+234"size"2"/>
+ <input type="text"name="phone" placeholder="Phone no."size="10"/required>
+
+ current Address :
+ <textarea cols="80" rows="5" placeholder="current address" value="address" required>
+</textarea>
+<label for="email"><b>Email</b>
+</label>
+<input type="=text"placeholder="Enter Email" name="email"required>
+
+
+</label>
+<input type="password" placeholder="Enter password" name="psw" required>
+
+<label for="psw-repeat"><b>Re-type password</b></label>
+<input type="password"placeholder="Re-type password"name="psw-repeat" readonly>
+<button type="submit"class="registerbtn">Register</button>"
+</form>
+    </body>
+</html>
